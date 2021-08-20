@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py", "Py\Py.pyproj", "{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-v101", "VB-v101\VB-v101.vbproj", "{7C390A03-38E1-422D-8537-2E5D5CD79867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "index", "index", "{02F48EC5-4CEE-4EE2-8D1E-A539FA5C1D18}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pas", "Pas", "{B4F66B67-477C-4625-8DEF-4028C9E81064}"
+	ProjectSection(SolutionItems) = preProject
+		Pas\1-File-Read.pas = Pas\1-File-Read.pas
+		Pas\2-File-Write.pas = Pas\2-File-Write.pas
+		Pas\3-File-Append.pas = Pas\3-File-Append.pas
+		Pas\TFile.txt = Pas\TFile.txt
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB-v102", "VB-v102\VB-v102.vbproj", "{CA4A4089-119E-4884-9E5F-6D6F2AE3B73C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DF04CC-AC8E-40AB-A6E5-00FF983EEE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C390A03-38E1-422D-8537-2E5D5CD79867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C390A03-38E1-422D-8537-2E5D5CD79867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C390A03-38E1-422D-8537-2E5D5CD79867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C390A03-38E1-422D-8537-2E5D5CD79867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4A4089-119E-4884-9E5F-6D6F2AE3B73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4A4089-119E-4884-9E5F-6D6F2AE3B73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4A4089-119E-4884-9E5F-6D6F2AE3B73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4A4089-119E-4884-9E5F-6D6F2AE3B73C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF77C5E9-79BC-431C-B8AB-23DB582F5241}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+This file won't work unless line 8 is commented out and line 6 is uncommented instead.
+
+In other words, the connection string must come back 3 folders.
+ 
