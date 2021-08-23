@@ -3,11 +3,9 @@ Imports System.IO
 
 Public Class frmFileOps
     'Connection string for "txtFile.txt" in root folder with "FileOps.sln"
-    'Dim FILE_NAME As String = System.IO.Path.Combine(My.Application.Info.DirectoryPath, "../../../txtFileInRoot-VB.txt")
+    'ReadOnly FILE_NAME As String = System.IO.Path.Combine(My.Application.Info.DirectoryPath, "../../../txtFileInRoot-VB.txt")
     'Connection string for "txtFile.txt" in the same folder as "File_Write.exe"
     ReadOnly FILE_NAME As String = System.IO.Path.Combine(My.Application.Info.DirectoryPath, "txtFile.txt") 'in Debug folder
-    'absolute path works but is a pain when changing folders
-    'Dim FILE_NAME As String = "C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\Code\03-File_ReadWriteAppend\VB-FileOps\File_Write-11-Array\txtFile.txt"
 
     Private Sub BtnWrite_Click(sender As Object, e As EventArgs) Handles BtnWrite.Click
         'From: http://www.homeandlearn.co.uk/NET/nets8p4.html
