@@ -1,0 +1,4 @@
+Hello textfile!
+The answer to life, the universe and everything: 42
+Hello again textfile!
+The result of 6 * 7 = 42
