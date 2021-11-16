@@ -6,7 +6,7 @@
     <ProjectGuid>58df04cc-ac8e-40ab-a6e5-00ff983eee65</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>4-readArray-v101.py</StartupFile>
+    <StartupFile>2-write-v101.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
