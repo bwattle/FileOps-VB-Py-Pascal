@@ -2,7 +2,7 @@
 #   the first is line by line
 #   the 2nd is as a block of text
 # originally written to assist in the response to the HSC 2016, Q33 
-# shorter that v1.01, but not as easy to see what's happening
+# Thanks to Yr12 student 2022, Minh Dang for the short "split" code and breakdown for write
 with open("FoodData.txt") as file_object:
     _array = file_object.read().splitlines()
 
