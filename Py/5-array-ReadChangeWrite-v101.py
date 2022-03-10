@@ -1,8 +1,14 @@
-# this file makes a change to the 2D array, then does 2 updates to the file:
-#   the first is line by line
-#   the 2nd is as a block of text
-# originally written to assist in the response to the HSC 2016, Q33 
-# Thanks to Yr12 student 2022, Minh Dang for the short "split" code and breakdown for write
+""" 
+This file makes a change to the 2D array, then does 2 updates to the file:
+   the first is line by line
+   the 2nd is as a block of text
+Originally written to assist in the response to the HSC 2016, Q33: 
+https://educationstandards.nsw.edu.au/wps/portal/nesa/resource-finder/hsc-exam-papers/2016/software-design-and-development-2016-hsc-exam-pack
+Thanks to Yr12 student 2022, Minh Dang for the short "split" code and breakdown for write
+The file "FoodData.txt" must be in the same folder. It can be found at: https://github.com/bwattle/FileOps-VB-Py-Pascal/blob/master/Py/FoodData.txt
+The file "FoodDataChanged.txt" will be created. If it exists, it will be overwritten.
+"""
+
 with open("FoodData.txt") as file_object:
     _array = file_object.read().splitlines()
 

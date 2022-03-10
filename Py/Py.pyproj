@@ -6,7 +6,7 @@
     <ProjectGuid>58df04cc-ac8e-40ab-a6e5-00ff983eee65</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>5-array-ReadChangeWrite-v101.py</StartupFile>
+    <StartupFile>5-array-ReadChangeWrite-v102.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,7 @@
     <Compile Include="1-read-v101.py" />
     <Compile Include="4-readArray-v101.py" />
     <Compile Include="4-readArray-v102.py" />
+    <Compile Include="5-array-ReadChangeWrite-v102.py" />
     <Compile Include="5-array-ReadChangeWrite-v101.py" />
   </ItemGroup>
   <ItemGroup>
