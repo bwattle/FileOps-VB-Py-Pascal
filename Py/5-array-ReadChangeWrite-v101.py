@@ -5,6 +5,7 @@
 
 # "with" block https://www.python.org/dev/peps/pep-0343/#examples.
 # Read file
+
 with open("FoodData.txt") as file_object:
     name_food_list = file_object.read().splitlines()
 
