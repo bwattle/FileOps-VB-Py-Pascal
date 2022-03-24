@@ -6,7 +6,7 @@
     <ProjectGuid>58df04cc-ac8e-40ab-a6e5-00ff983eee65</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>5-array-ReadChangeWrite-v102.py</StartupFile>
+    <StartupFile>6-array-v102-fileToClass-AddRecToFile.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,11 +31,15 @@
     <Compile Include="4-readArray-v101.py" />
     <Compile Include="4-readArray-v102.py" />
     <Compile Include="5-array-ReadChangeWrite-v102.py" />
+    <Compile Include="6-array-v101-intoClass-intoFile.py" />
+    <Compile Include="6-array-v102-fileToClass-AddRecToFile.py" />
     <Compile Include="5-array-ReadChangeWrite-v101.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="FoodData.txt" />
     <Content Include="FoodDataChanged.txt" />
+    <Content Include="StudentData - Copy.txt" />
+    <Content Include="StudentData.txt" />
     <Content Include="textFile-BU.txt" />
     <Content Include="textFile.txt" />
   </ItemGroup>
