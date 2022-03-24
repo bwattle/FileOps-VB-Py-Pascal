@@ -1,11 +1,4 @@
-Charlie,OtherFood
-Tim, meat
-Max, tuna
-Simon, rice
-
-words written as a block:
-
-Charlie,OtherFood
+Charlie, OtherFood
 Tim, meat
 Max, tuna
 Simon, rice
